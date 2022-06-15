@@ -1,0 +1,18 @@
+.informacion-usuario {
+    display: flex;
+    margin: 0 auto;
+    width: 90%;
+    max-width: 40rem;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+.informacion-usuario__contenedor {
+    display: flex;
+}
+
+.informacion-usuario__boton-seguir {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}

@@ -1,0 +1,60 @@
+.lugar-individual {
+  margin: 1rem 0;
+}
+
+.lugar-individual__contenido {
+  padding: 0;
+}
+
+.lugar-individual__info {
+  padding: 1rem;
+  text-align: center;
+}
+
+.lugar-individual__imagen {
+  width: 100%;
+  height: 12.5rem;
+  margin-right: 1.5rem;
+}
+
+.lugar-individual__imagen img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.lugar-individual__info h2,
+.lugar-individual__info h3,
+.lugar-individual__info p {
+  margin: 0 0 0.5rem 0;
+}
+
+.lugar-individual__acciones {
+  padding: 1rem;
+  text-align: center;
+  border-top: 1px solid #ccc;
+}
+
+.lugar-individual__modal-contenido {
+  padding: 0;
+}
+
+.lugar-individual__modal-acciones {
+  text-align: right;
+}
+
+.lugar-individual__acciones button,
+.lugar-individual__acciones a {
+  margin: 0.5rem;
+}
+
+.mapa-contenedor {
+  height: 15rem;
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .lugar-individual__imagen {
+    height: 20rem;
+  } 
+}
